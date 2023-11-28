@@ -95,6 +95,21 @@ p{
     height: 70%;
 }
 
+#designs{
+    margin-bottom: 200px;
+}
+
+#designs ul{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#designs ul li img{
+    width: 80%;
+}
+
 form{
     display: flex;
     flex-direction: column;
